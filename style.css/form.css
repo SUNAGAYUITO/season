@@ -1,0 +1,48 @@
+body {
+    font-family: cursive, "serif";
+  }
+  
+  form {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 32px;
+    background-color: #fff;
+    border: 1px solid #d2b48c;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  table {
+    width: 100%;
+    border-spacing: 0 16px;
+  }
+  
+  td {
+    padding: 8px 16px;
+    vertical-align: top;
+  }
+  
+  label {
+    color: #6b4f30;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d2b48c;
+    border-radius: 8px;
+    background-color: #fefcf9;
+    font-size: 16px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 8px;
+    accent-color: #d2b48c;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #a67b5b;
+    box-shadow: 0 0 4px #d2b48c;
+  }
+  

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story</title>
+    <link rel="stylesheet" href="../style.css/form.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../js/main.js"></script>
+</head>
+<body class="bg-orange-50">
+    <section class="flex bg-orange-100 justify-between items-center">
+        <a href="./index.html"><img src="../img/header.jpg" alt="" class="w-32 sm:w-48 md:w-64"></a>
+        <section class="flex">
+            <h3 class="mx-4"><a href="./form.html">お問い合わせ</a></h3>
+        </section>
+        
+    </section>
+
+<div class="flex justify-center items-center mt-16">
+    <button id="recrut" class="bg-orange-500 text-white px-6 py-2 rounded hover:bg-blue-600 transition">
+        正社員、アルバイトの求人はこちら
+      </button>
+</div>
+
+
+  
+
+
+<section id="formContainer"  class="mt-6 hidden transition-all duration-500 transform translate-y-10 opacity-0flex justify-center items-center my-10">
+
+
+
+    <form action="#" method="post">
+
+
+        <table  id="form">
+          <tr>
+            <td> <label for="username">名前</label></td>
+            <td><input type="text" id="username" name="username" required></td>
+          </tr>
+        
+          <tr>
+            <td><label for="kana">カナ</label></td>
+            <td><input type="text" id="kana" name="kana" required></td>
+          </tr>
+        
+          <tr>
+            <td><label for="mail">メールアドレス</label></td>
+            <td><input type="text" id="mail" name="mail" required></td>
+          </tr>
+        
+          <tr>
+            <td><label for="know">Four Seasonを知ったきっかけ</label></td>
+            <td><input type="text" id="know" name="know" required></td>
+          </tr>
+        
+          <tr>
+            <td><label for="douki">志望動機</label></td>
+            <td><input type="text" id="know" name="know" required class="h-64"></td>
+          </tr>
+        
+        
+          <tr>
+            <td><label for="syousai">詳細</label></td>
+            <td><input type="text" id="syousai" name="syousai" required></td>
+          </tr>
+        </table>
+
+        <div class="flex justify-center mt-6">
+            <button class="text-white bg-orange-400 px-6 py-2 rounded">
+              送信
+            </button>
+          </div>
+    </form>
+      
+
+</section>
+        
+
+<div class="flex justify-center items-center mt-4">
+    <button id="question" class="bg-orange-500 text-white px-6 py-2 rounded hover:bg-blue-600 transition mb-24">
+        店舗にお問い合わせははこちら
+      </button>
+</div>
+        
+<section id="formContainer2"  class="mt-6 hidden transition-all duration-500 transform translate-y-10 opacity-0flex justify-center items-center my-10">
+
+
+
+    <form action="#" method="post">
+
+
+        <table  id="form">
+        
+          <tr>
+            <td><label for="kana">ニックネーム</label></td>
+            <td><input type="text" id="kana" name="kana" required></td>
+          </tr>
+    
+        
+          <tr>
+            <td><label for="douki">お問い合わせ内容</label></td>
+            <td>
+              <input type="checkbox" id="web" name="interests" value="web">
+              <label for="web">商品概要を知りたい</label><br>
+              <input type="checkbox" id="web" name="interests" value="web">
+              <label for="web">ドリンクの予約について</label><br>
+              <input type="checkbox" id="web" name="interests" value="web">
+              <label for="web">駐車場について</label><br>
+              <input type="checkbox" id="web" name="interests" value="web">
+              <label for="web">その他</label></td>
+          </tr>
+        
+        
+          <tr>
+            <td><label for="syousai">詳細</label></td>
+            <td><input type="text" id="syousai" name="syousai" required class="h-40"></td>
+          </tr>
+        </table>
+
+        <div class="flex justify-center mt-6">
+            <button class="text-white bg-orange-400 px-6 py-2 rounded">
+              送信
+            </button>
+          </div>
+    </form>
+      
+
+</section>
+        
+
+        
+        
+<footer class="flex justify-center items-center bg-gray-100 mt-96">
+    <h4 class="py-2">copyrights 2023 Four Season All RIghts Reserved.</h4>
+</footer>
+        
+
+    
+</body>
+</html>
